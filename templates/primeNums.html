@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Primes</title>
+  <meta charset="UTF-8">
+  <title>Primes</title>
 </head>
 <body>
-   <h1>Prime Numbers</h1>
+  <h1>Prime Numbers</h1>
+  {% for prime in primes %}
+    <h2>{{ prime }}</h2>
+  {% endfor %}
 </body>
 </html>
